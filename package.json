@@ -1,13 +1,17 @@
-name": "rpg-server",
+{
+  "name": "rpg-server",
   "version": "1.0.0",
-  "description": "マルチプレイヤーRPGサーバー",
+  "description": "RPG Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "better-sqlite3": "^9.2.2"
+    "express": "4.18.2",
+    "cors": "2.8.5",
+    "better-sqlite3": "9.2.2"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
