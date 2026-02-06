@@ -1,5 +1,4 @@
-{
-  "name": "rpg-server",
+name": "rpg-server",
   "version": "1.0.0",
   "description": "マルチプレイヤーRPGサーバー",
   "main": "server.js",
